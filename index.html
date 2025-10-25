@@ -39,6 +39,23 @@
             padding: 10px;
             border-bottom: 5px solid #000;
         }
+        
+        /* NEW: Logo text styling for the 90s/2000s look */
+        .logo-text {
+            font-family: Impact, "Arial Black", sans-serif;
+            font-size: 5em;
+            font-weight: 900;
+            color: #FF0000; /* Bright Red */
+            text-shadow: 
+                -3px -3px 0 #FF00FF, /* Magenta shadow 1 */
+                -6px -6px 0 #00FFFF, /* Cyan shadow 2 */
+                6px 6px 0 #39FF14, /* Lime Green shadow 3 */
+                9px 9px 0 #FFA500; /* Orange shadow 4 */
+            letter-spacing: 5px;
+            padding: 10px 0;
+            margin: 0;
+            line-height: 1;
+        }
 
         .nav-cell {
             background-color: #FFA500; /* Bright Orange */
@@ -200,14 +217,9 @@
     --><!-- Added deprecated <center> tag for authentic 90s layout --><center>
     <table class="main-layout" BORDER="5" CELLPADDING="0" CELLSPACING="0">
         
-        <!-- === HEADER: LOGO === --><tr class="header-row">
+        <!-- === HEADER: TEXT LOGO (REPLACED IMAGE) === --><tr class="header-row">
             <td colspan="2" class="header-cell">
-                <!-- 
-                  Updated filename and added width/height.
-                --><img src="images/tvfuntime_logo.png" 
-                     alt="TVFunTime.net Logo"
-                     width="500" height="120"
-                     style="border-color: #00FF00;">
+                <h1 class="logo-text">TV FUNTIME .net</h1>
             </td>
         </tr>
         
@@ -224,7 +236,7 @@
         <!-- === MAIN CONTENT ROW === --><tr class="content-row">
             
             <!-- === MAIN CONTENT (LEFT) === --><td class="main-content-cell">
-                <div class="headline blinking">HEY TV FUN TIME FANS!</div>
+                <div class="headline blinking">HEY NORTHERN ALBERTA KIDS!</div>
                 
                 <!-- NEW: Meet the Hosts (moved from sidebar and made more prominent) --><div class="content-box" style="text-align: center; border-color: #FF69B4;">
                     <h2>&#10029; Meet Sparky &amp; Bubbles! &#10029;</h2>
